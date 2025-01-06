@@ -16,7 +16,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credentials_path
 # Microsoft TTS Configuration
 API_URL = "https://api-inference.huggingface.co/models/microsoft/speecht5_tts"
 headers = {
-    "Authorization": "Bearer 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"}  # Replace with your actual Hugging Face token
+    "Authorization": "Bearer hf_xxxxxxxxxxxxxxxxxxxxxxx"}  # Replace with your actual Hugging Face token
 
 
 def text_to_speech(text):
